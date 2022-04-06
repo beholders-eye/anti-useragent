@@ -1,9 +1,8 @@
 from anti_useragent.utils.log import LogFormatter
+from anti_useragent.utils.misc import Utils
 
 logging = LogFormatter()
 
-from anti_useragent.utils.misc import Utils
-
 misc = Utils()
 
-__all__ = [logging, misc]
+__all__ = ["logging", "misc"]
